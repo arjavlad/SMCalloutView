@@ -10,6 +10,6 @@ let package = Package(
         .library(name: "SMCalloutView", targets: ["SMCalloutView"])
     ],
     targets: [
-        .target(name: "SMCalloutView", dependencies: [], path: "/")
+        .target(name: "SMCalloutView", dependencies: [])
     ]
 )
